@@ -7,7 +7,7 @@ on:
     branches:
       - main
 env:
-  AWS_REGION: eu-west-2
+  AWS_REGION: us-east-1
   # Note the ARNs are not needed here
   ECR_REPOSITORY: 2024-aws-project-v2
   ECS_SERVICE: my-app-service-v2
